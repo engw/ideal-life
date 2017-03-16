@@ -9,6 +9,14 @@ import scrapy
 
 
 class IdeallifeItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    url = scrapy.Field()
+    title = scrapy.Field()
+    rent = scrapy.Field()
+    deposit = scrapy.Field()
+    tip = scrapy.Field()
+    nearest_stations = scrapy.Field()
+    address = scrapy.Field()
+    birthday = scrapy.Field()
+    window_angle = scrapy.Field()
+    dimension = scrapy.Field()
+    layout = scrapy.Field()
